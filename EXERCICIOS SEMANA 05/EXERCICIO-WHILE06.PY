@@ -1,0 +1,12 @@
+#ELABORAR UM PROGRAMA QUE APRESENTE O SOMATORIO DOS VALORES PARES EXISTENTES NA FAIXA DE 1 E N
+#ONDE N É UM NÚMERO DIGITADO PELO USUÁRIO E QUE DEVE SER NO MINIMO 100(OBRIGATORIO GARANTIR ESSE REQUISITO)
+pares = 0
+soma = 0
+cont = 0
+N = int(input())
+
+if N < 99 :
+    print('N deve ser no Mínimo 100')
+else:
+    if cont % 2 == 0:
+        pares +=1
